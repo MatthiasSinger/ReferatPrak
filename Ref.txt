@@ -3,7 +3,13 @@ Definition:   „a change made to the internal structure of software to make it ea
 	cheaper to modify without changing its observable behavior.”
 Refactoring ist das Verändern der Struktur eines Programms, ohne das externe Verhalten zu verändern. Wichtig, da sonst Bugs durch Refactoring eingeführt werden können, was sie schwer zu entdecken macht.
 Dabei sollte das Programm übersichtlicher und leichter zu verändern werden.
-Es stellt einen wichtigen Teil der agilen Softwareentwicklung dar, da hierbei nicht klassisch alles langwierig vorher entworfen wird, sondern ein Fokus auf die schnelle Produktion lauffähiger Prototypen liegt, welche danach refactored werden. Regelmäßiges Refactoring verhindert einen typischen Effekt bei der Programmierung, den anhaltenden Verfall von Softwarequalität bei längerer Entwicklung und Wartung. Dadurch wird ein wichtiger Grundsatz der modernen Softwareentwicklung umgesetzt: Kontinuierliches Design statt Wasserfall! -> Vorteile
+Es stellt einen wichtigen Teil der agilen Softwareentwicklung dar,
+da hierbei nicht klassisch alles langwierig vorher entworfen wird, 
+sondern ein Fokus auf die schnelle Produktion lauffähiger Prototypen liegt, welche danach refactored werden.
+Regelmäßiges Refactoring verhindert einen typischen Effekt bei der Programmierung,
+den anhaltenden Verfall von Softwarequalität bei längerer Entwicklung und Wartung.
+Dadurch wird ein wichtiger Grundsatz der modernen Softwareentwicklung umgesetzt: 
+	Kontinuierliches Design statt Wasserfall! -> Vorteile
 
 
 •	Programmierer orientierte Aufgabe: Refactoring, Testing, Dokumentation
@@ -13,5 +19,7 @@ Es stellt einen wichtigen Teil der agilen Softwareentwicklung dar, da hierbei ni
 •	Macht keinen Spaß, ist aber notwendig
 •	Erfahrungsgemäß macht man diese Aufgaben gleich oder gar nicht -> Legacy Code
 •	Soziale Komponente: Keiner will Code von anderen Refactoren
+*	Broken Windows
 
-Refactoring ist prinzipiell per Hand möglich aber sehr fehleranfällig, deshalb sollte man Tools verwenden, im Normalfall einen Editor oder eine IDE.
+Refactoring ist prinzipiell per Hand möglich aber sehr fehleranfällig, deshalb sollte man Tools verwenden,
+im Normalfall einen Editor oder eine IDE.
