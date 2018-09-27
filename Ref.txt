@@ -1,21 +1,21 @@
 Was ist Refactoring?
-Definition:   „a change made to the internal structure of software to make it easier to understand and
-	cheaper to modify without changing its observable behavior.”
-* Refactoring ist nur Verändern der Struktur, nicht des Verhaltens
-* Wichtig, da nur so neue Bugs verhindert werden können
-* Ziel = Progrmam wird übersichtlicher und leichter zu verändern
-* erhöhte Bedeutung durch interativen Entwicklungsprozess (Agile), da hier schnelle Prototypen
-	erstellt werden und dadurch weniger sorgfältig entwickelt
+Definition:   â€a change made to the internal structure of software to make it easier to understand and
+	cheaper to modify without changing its observable behavior.â€
+* Refactoring ist nur VerÃ¤ndern der Struktur, nicht des Verhaltens
+* Wichtig, da nur so neue Bugs verhindert werden kÃ¶nnen
+* Ziel = Progrmam wird Ã¼bersichtlicher und leichter zu verÃ¤ndern
+* erhÃ¶hte Bedeutung durch interativen Entwicklungsprozess (Agile), da hier schnelle Prototypen
+	erstellt werden und dadurch weniger sorgfÃ¤ltig entwickelt
 <> Wasserfall mit kompletter Designphase vor der Implementierung
 => Kontinuierliches Design ("Continuous Design")
-- Vermeidung von "Software Decay" = Verfall der Qualität bei längerem Bestehen von Software
+- Vermeidung von "Software Decay" = Verfall der QualitÃ¤t bei lÃ¤ngerem Bestehen von Software
 * Programmierer orientierte Aufgabe: Refactoring, Testing, Dokumentation
-* Gefahr, dass man es vernachlässigt, da es dem Kunden egal ist
-* Langfristig mehr Zeitverlust durch umständliche Wartung
-* Beispiel: Aufräumen
-* Macht keinen Spaß, ist aber notwendig
-* Erfahrungsgemäß macht man diese Aufgaben gleich oder gar nicht -> Legacy Code
+* Gefahr, dass man es vernachlÃ¤ssigt, da es dem Kunden egal ist
+* Langfristig mehr Zeitverlust durch umstÃ¤ndliche Wartung
+* Beispiel: AufrÃ¤umen
+* Macht keinen SpaÃŸ, ist aber notwendig
+* ErfahrungsgemÃ¤ÃŸ macht man diese Aufgaben gleich oder gar nicht -> Legacy Code
 * Soziale Komponente: Keiner will Code von anderen Refactoren
 * Broken Windows -> einer machts nicht, keiner machts mehr
-* Anzeichen für Refactoring => Code Smells
-* Methoden zur Behebung werden jetzt vorgestellt
+* Anzeichen fÃ¼r Refactoring => Code Smells
+* Methoden zur Behebung werden jetzt vorgestelllt
